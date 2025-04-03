@@ -1,4 +1,4 @@
-const apiBase = "http://localhost:8080";
+const apiBase = "https://laboratorio01-h9h6fhggbkdngnfw.canadacentral-01.azurewebsites.net";
 
 export async function cargarLaboratorios() {
     try {
