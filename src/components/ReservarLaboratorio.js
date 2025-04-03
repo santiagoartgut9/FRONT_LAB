@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { cargarLaboratorios, reservarLaboratorio } from "../services/api"; // Ajusta la ruta si es necesario
+import { cargarLaboratorios, reservarLaboratorio } from "../services/api";
 import Swal from "sweetalert2";
 
 function ReservarLaboratorio() {

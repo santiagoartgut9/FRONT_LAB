@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cancelarReserva } from "../services/api"; // Asegúrate de importar correctamente tu API
+import { cancelarReserva } from "../services/api";
 import Swal from "sweetalert2";
 
 function CancelarReserva() {
@@ -23,7 +23,7 @@ function CancelarReserva() {
     if (confirmacion.isConfirmed) {
       await cancelarReserva(idReserva);
       Swal.fire("Reserva cancelada con éxito!", "", "success");
-      setIdReserva(""); // Limpiar el campo después de cancelar
+      setIdReserva("");
     }
   }
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { cargarLaboratorios, consultarDisponibilidad } from "../services/api"; // Asegúrate de importar bien tu archivo API
+import { cargarLaboratorios, consultarDisponibilidad } from "../services/api";
 import Swal from "sweetalert2";
 
 function ConsultaDisponibilidad() {
